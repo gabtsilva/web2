@@ -8,7 +8,7 @@ const switchLights = () => {
                 blocs[i].style.backgroundColor = 'transparent';
             }
             obj[order[index]].style.backgroundColor = order[index];
-        }, 2000 * index);
+        }, 1000 * index);
     }
 }
-setInterval(switchLights,8000);
+setInterval(switchLights,4000);
